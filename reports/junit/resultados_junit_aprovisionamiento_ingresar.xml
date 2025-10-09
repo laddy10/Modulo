@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites><testsuite name="MG_Aprovisionamiento" tests="1" failures="0" passed="1" time="99.88"><testcase name="cuenta_51219296" time="0:01:39.875145"><system-out>Estado: Completada
+Resultados: .[OK] Documentos unificados correctamente en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\one_report_general\documento_unificado.docx
+Viewport aplicado: 2264x961
+
+InformaciÃ³n obtenida:
+Cuenta: 51219296
+Nombre del suscriptor: DORIS MOSQUERA CORDOBA
+Estado del suscriptor: Activo
+TelevisiÃ³n: SIN SERVICIO
+Claro Box TV: SIN SERVICIO
+Internet: OK
+DTH: SIN SERVICIO
+TelefonÃ­a: OK
+
+DATOS INTERNET
+DATOS DE RR DATOS DE HP
+TIPO/FABRICANTE SERIALMAC ESTADO RR MAC ADRESS RR SERVICIO ACCESOS COMANDO MAC ADRESS HP SERVICIO HP ACTIVO CPE ACCION DIFERENCIA
+ ONT FSG  8C9806C128FE  AS  SEIG25133010  9RF INT 900 MB  3  
+Comando...
+Niveles
+Reset Modem
+ 8c:98:06:c1:28:fe  9RF  SI  OLT:|OWN:CLARO  OK  
+
+tipoFabricante no contiene 'MTA'. Valor actual: ' ONT FSG'
+
+DATOS TELEFONIA
+DATOS DE RR DATOS DE HP
+REPARAR CARTERA TIPO/FAB SERIALMAC MAC ADRESS RR SERVICIO LINEA/PUERTO RR::HP MAC ADRESS HP SERVICIO HP SOFTSWITCH FQDN ACTIVO ACCION DIFERENCIA
+ N/A - SIN RESTRICCIONES  NUM RES  8C9806C128FE  SEIG25133010  TFR TELEF LOC FO  6045090597 / 1 :: 1  8c:98:06:c1:28:fe  TFR  MED02  SEIG25133010  SI  OK  
+LINEAS Y NUMEROS VIRTUALES - ATAs
+HUNT GROUPS - PACKETCABLE
+  
+
+[ALERTA] Test demorÃ³ 71.96 segundos. Enviando alerta...</system-out></testcase></testsuite></testsuites>

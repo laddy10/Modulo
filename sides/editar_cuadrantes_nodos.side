@@ -1,0 +1,166 @@
+{
+  "id": "034f1e8f-5eab-425f-ba83-e5ce1030336b",
+  "version": "2.0",
+  "name": "editar_cuadrantes_nodos",
+  "url": "http://100.72.132.115/index.php",
+  "tests": [{
+    "id": "59349a4b-9708-4bfd-a7d5-e7335603ea8f",
+    "name": "caso1",
+    "commands": [{
+      "id": "3a1eb48f-3082-4584-99c4-5bf49e23167e",
+      "comment": "",
+      "command": "open",
+      "target": "http://100.72.132.115/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1eb6e25e-524b-4d66-bde8-6901ec0f950b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x652",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "035a60be-12d8-4af3-ad05-1e3732de971f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16d459de-1d24-4c90-a384-dbc6702107c8",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input",
+      "targets": [
+        ["id=akMXdnVKAo", "id"],
+        ["name=akMXdnVKAo", "name"],
+        ["css=#akMXdnVKAo", "css:finder"],
+        ["xpath=//input[@id='akMXdnVKAo']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "38500343"
+    }, {
+      "id": "52ee3eba-73e1-44c5-a890-a03722697f3e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[3]/td[2]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc1bf015-ac76-4bcf-a2e6-db8996a147c7",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[3]/td[2]/input",
+      "targets": [
+        ["id=FB5XDe1r6LQ", "id"],
+        ["name=FB5XDe1r6LQ", "name"],
+        ["css=#FB5XDe1r6LQ", "css:finder"],
+        ["xpath=//input[@id='FB5XDe1r6LQ']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25Matias**"
+    }, {
+      "id": "d0c97612-60b0-46ef-9fd9-f8d5b7ec8b1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Submit",
+      "targets": [
+        ["id=Submit", "id"],
+        ["name=Submit", "name"],
+        ["css=#Submit", "css:finder"],
+        ["xpath=//input[@id='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4cac9bf-a56a-4937-927a-a90be2f93e5d",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "267fa7af-556f-4479-8784-f895e53d97ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=imgAtrasMenu",
+      "targets": [
+        ["id=imgAtrasMenu", "id"],
+        ["css=#imgAtrasMenu", "css:finder"],
+        ["xpath=//img[@id='imgAtrasMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52340278-54fa-4c28-a503-9222e4a5f733",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/a/span[3]",
+      "targets": [
+        ["css=li:nth-child(50) .c:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/a/span[3]", "xpath:idRelative"],
+        ["xpath=//div/ul/li[50]/a/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'MGW::Modulo Gestion Workforce')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d11c5a48-d422-408b-b465-0af33295438c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/ul/li[13]/a/span[4]",
+      "targets": [
+        ["css=li:nth-child(50) > .submenu_opcion1 > li:nth-child(13) > a > .c", "css:finder"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/ul/li[13]/a/span[4]", "xpath:idRelative"],
+        ["xpath=//li[50]/ul/li[13]/a/span[4]", "xpath:position"],
+        ["xpath=//span[contains(.,'Setup Agenda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49dd67bd-c26f-4e97-8d6f-f0a40ee81acb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/ul/li[13]/ul/li[20]/a/span[5]",
+      "targets": [
+        ["css=li:nth-child(13) li:nth-child(20) > a > .c", "css:finder"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/ul/li[13]/ul/li[20]/a/span[5]", "xpath:idRelative"],
+        ["xpath=//li[13]/ul/li[20]/a/span[5]", "xpath:position"],
+        ["xpath=//span[contains(.,'MGW::Modulo Gestion Workforce::Red Maestra Backup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b0f39e9-449c-4439-b202-2789f02ffd0a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/ul/li[13]/ul/li[20]/ul/li/a/span[6]",
+      "targets": [
+        ["css=li:nth-child(20) li:nth-child(1) .c:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li[50]/ul/li[13]/ul/li[20]/ul/li/a/span[6]", "xpath:idRelative"],
+        ["xpath=//li[13]/ul/li[20]/ul/li/a/span[6]", "xpath:position"],
+        ["xpath=//span[contains(.,'MGW::Modulo Gestion Workforce::Cuadrantes Nodos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8afe90d-65c3-4108-b8ba-36e0184769bd",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3084a385-dd55-448b-87c2-dbbaa2fe31af",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["59349a4b-9708-4bfd-a7d5-e7335603ea8f"]
+  }],
+  "urls": ["https://nwb24282.live.dynatrace.com/dashboards/289f192a-858c-4ff8-8f2a-8f548214c98c?auth=dt0c01.KASZNRBCXLLY2SHTKJKEA6YY.RDILFBXE3ACG6BWACAMI6J6DJIT7UWY6WT2NTYQLMGAPRWLBX2OH5SCRHV433XNJ"],
+  "plugins": []
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<testsuites>
+  <testsuite name="TestMGC" tests="4" failures="0" passed="4" time="145.1658856868744"/>
+  <testsuite name="hilo 1" tests="4" failures="0" passed="4">
+    <testcase name="test_1_ingreso_pagina">
+      <system-out>Exitoso</system-out>
+    </testcase>
+    <testcase name="test_2_ingreso_credenciales">
+      <system-out>Exitoso</system-out>
+    </testcase>
+    <testcase name="test_3_consulta_documentoCorrecto">
+      <system-out>Exitoso</system-out>
+    </testcase>
+    <testcase name="test_4_consulta_documentoIncorrecto">
+      <system-out>Exitoso</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

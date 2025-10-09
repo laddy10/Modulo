@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites><testsuite name="MG_Simulador_regla" tests="1" failures="0" passed="1" time="99.99"><testcase name="orden_3900374" time="0:01:39.986494"><system-out>Estado: Completada
+Resultados: .[OK] Documentos unificados correctamente en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\one_report_general\documento_unificado.docx
+Viewport aplicado: 2264x961
+No se encontraron validaciones para la orden ingresada, verifique que el tipo de ot sea el correcto.
+
+PESTAÃ‘A SIMULADOR OT
+Actividad aprobada
+Nombre Actividad Pri/secu Codigo Cantidad
+MO ARREGLO UNIDAD FTTH NR Primaria FTARTOCNR 1
+
+PESTAÃ‘A LOG DE SIMULACION
+No existen datos!
+[ALERTA] Test demorÃ³ 73.69 segundos. Enviando alerta...</system-out></testcase></testsuite></testsuites>

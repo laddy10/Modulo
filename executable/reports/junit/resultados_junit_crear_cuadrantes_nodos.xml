@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites><testsuite name="MG_crear_cuadrantes_nodos" tests="1" failures="0" passed="1" time="95.12"><testcase name="test_crear_cuadrantes_nodos" time="0:01:35.123117"><system-out>Estado: Ejecución completada
+Resultados: .[OK] Documentos unificados correctamente en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\one_report_general\documento_unificado.docx
+Viewport aplicado: 2264x961
+Alerta detectada: relacion ya se encuentra asignada
+Error durante la validaciÃ³n de ingreso:
+Guardando reporte: crear_cuadrantes_nodos
+Reporte Word guardado en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\all_reports\reporte_crear_cuadrantes_nodos.docx
+Reporte guardado en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\all_reports\reporte_crear_cuadrantes_nodos.docx</system-out></testcase></testsuite></testsuites>

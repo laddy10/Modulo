@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites><testsuite name="MG_Simulador_regla" tests="1" failures="0" passed="1" time="104.96"><testcase name="orden_3900374" time="0:01:44.956694"><system-out>Estado: Completada
+Resultados: .[ERROR] No se pudo procesar ~$porte_Aprovisionamiento_Ingresar.docx: Package not found at 'C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\all_reports\~$porte_Aprovisionamiento_Ingresar.docx'
+[OK] Documentos unificados correctamente en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\one_report_general\documento_unificado.docx
+Viewport aplicado: 2264x961
+No se encontraron validaciones para la orden ingresada, verifique que el tipo de ot sea el correcto.
+
+PESTAÃ‘A SIMULADOR OT
+Actividad aprobada
+Nombre Actividad Pri/secu Codigo Cantidad
+MO ARREGLO UNIDAD FTTH NR Primaria FTARTOCNR 1
+
+PESTAÃ‘A LOG DE SIMULACION
+No existen datos!
+[ALERTA] Test demorÃ³ 79.19 segundos. Enviando alerta...
+Guardando reporte: simulador_regla
+Reporte Word guardado en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\all_reports\reporte_simulador_regla.docx
+Reporte guardado en: C:\Users\46106289\Desktop\Automatizaciones\FRONT\modulo_gestion\reports\word\all_reports\reporte_simulador_regla.docx</system-out></testcase></testsuite></testsuites>

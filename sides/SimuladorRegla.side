@@ -1,0 +1,475 @@
+{
+  "id": "0e6c32cc-0290-45f6-95b4-a65564996732",
+  "version": "2.0",
+  "name": "SimuladorRegla",
+  "url": "http://100.72.132.155",
+  "tests": [{
+    "id": "a67c029a-ed8b-43f9-8a82-a862f67660e3",
+    "name": "Caso1",
+    "commands": [{
+      "id": "19116eef-3906-461b-ab0b-4ba39f933ede",
+      "comment": "",
+      "command": "open",
+      "target": "http://100.72.132.155/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d3c17a4-963c-49b4-a557-daf0b4d4fb54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1276x670",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac3b567d-c16e-4b4e-9b0f-4bb9b6c7edcf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input",
+      "targets": [
+        ["id=GbAkJjpZHG", "id"],
+        ["name=GbAkJjpZHG", "name"],
+        ["css=#GbAkJjpZHG", "css:finder"],
+        ["xpath=//input[@id='GbAkJjpZHG']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3240a16-1606-48f9-be7d-43b19f0961e1",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input",
+      "targets": [
+        ["id=GbAkJjpZHG", "id"],
+        ["name=GbAkJjpZHG", "name"],
+        ["css=#GbAkJjpZHG", "css:finder"],
+        ["xpath=//input[@id='GbAkJjpZHG']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[2]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "38500343"
+    }, {
+      "id": "e6e102f2-adc3-4925-97c4-efaa43f579e2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[3]/td[2]/input",
+      "targets": [
+        ["css=#Registro > .loginClaro-block", "css:finder"],
+        ["xpath=//form[@id='Registro']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e42ea921-2fa7-4659-8777-31b9a04582d0",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[3]/td[2]/input",
+      "targets": [
+        ["id=RH4eUE9omw6", "id"],
+        ["name=RH4eUE9omw6", "name"],
+        ["css=#RH4eUE9omw6", "css:finder"],
+        ["xpath=//input[@id='RH4eUE9omw6']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[3]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "25Matias**"
+    }, {
+      "id": "47a8c066-3b6c-4f9f-b4a6-ef952786a74b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Submit",
+      "targets": [
+        ["id=Submit", "id"],
+        ["name=Submit", "name"],
+        ["css=#Submit", "css:finder"],
+        ["xpath=//input[@id='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='formularioIngreso']/center/table/tbody/tr[5]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f2f0878-c3af-4ab6-9374-4b0e99539bf7",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce7ede51-c436-49d9-b10e-378769c97118",
+      "comment": "",
+      "command": "click",
+      "target": "id=imgAtrasMenu",
+      "targets": [
+        ["id=imgAtrasMenu", "id"],
+        ["css=#imgAtrasMenu", "css:finder"],
+        ["xpath=//img[@id='imgAtrasMenu']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "faf603d5-0310-41a4-b61b-3a0ce5d6eb25",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li/a",
+      "targets": [
+        ["linkText=A Parametrizacion Facturacion", "linkText"],
+        ["css=.submenu_claro > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'A Parametrizacion Facturacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1ecefbe-044f-4789-8a28-7b0b2b7d670b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li/ul/li[15]/a/span[4]",
+      "targets": [
+        ["css=li:nth-child(1) li:nth-child(15) .c:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='contenedor_menu_barra_lateral']/div/ul/li/ul/li[15]/a/span[4]", "xpath:idRelative"],
+        ["xpath=//li[15]/a/span[4]", "xpath:position"],
+        ["xpath=//span[contains(.,'Simulador regla')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0316b7c2-a4f9-44f9-ae28-8a9d5ed3c734",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccf25847-bb36-4c44-b24d-88bcabaec286",
+      "comment": "",
+      "command": "echo",
+      "target": "Pestaña Simulador OT",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42a07871-e3dc-43ae-aa63-1a5fb15c1c9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=tabs-1",
+      "targets": [
+        ["id=tabs-1", "id"],
+        ["css=#tabs-1", "css:finder"],
+        ["xpath=//div[@id='tabs-1']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs']/div", "xpath:idRelative"],
+        ["xpath=//td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c63db91f-b475-4c56-a411-7e3a65a3e17c",
+      "comment": "",
+      "command": "click",
+      "target": "id=origen",
+      "targets": [
+        ["id=origen", "id"],
+        ["name=origen", "name"],
+        ["css=#origen", "css:finder"],
+        ["xpath=//select[@id='origen']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs-1']/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6da8689b-6596-4400-8614-4c6a2e5748df",
+      "comment": "",
+      "command": "select",
+      "target": "id=origen",
+      "targets": [],
+      "value": "label=Orden de trabajo"
+    }, {
+      "id": "1e631d9a-b3be-4367-8029-fff73ef92ef6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0bb396d-63f5-4ee3-a73a-c5a84894ff94",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6334a8-711b-4f9a-a8fa-5668eed799d0",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a77ca5-0ab2-47b1-b50a-943bf9b23077",
+      "comment": "",
+      "command": "click",
+      "target": "id=identificador",
+      "targets": [
+        ["id=identificador", "id"],
+        ["name=identificador", "name"],
+        ["css=#identificador", "css:finder"],
+        ["xpath=//input[@id='identificador']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs-1']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8c37ece-4121-4528-8eee-c8f4aac69ef7",
+      "comment": "",
+      "command": "type",
+      "target": "id=identificador",
+      "targets": [
+        ["id=identificador", "id"],
+        ["name=identificador", "name"],
+        ["css=#identificador", "css:finder"],
+        ["xpath=//input[@id='identificador']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs-1']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "3900374"
+    }, {
+      "id": "73da1ce8-4a28-4e39-a449-56f1650557b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=consultar",
+      "targets": [
+        ["id=consultar", "id"],
+        ["name=consultar", "name"],
+        ["css=#consultar", "css:finder"],
+        ["xpath=//input[@id='consultar']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs-1']/div/div/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3f39d41-1908-41e9-a712-6e0425066d72",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c38e99b6-9ed5-4cfe-809f-e7b90d2ccde2",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=#log td",
+      "targets": [
+        ["css=#log td", "css:finder"],
+        ["xpath=//table[@id='log']/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//div/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": "info"
+    }, {
+      "id": "9f912298-7636-490f-9d77-353f6cd33ef3",
+      "comment": "",
+      "command": "echo",
+      "target": "${info}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21c497a0-59a6-4b45-90f3-ac8116deb38b",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6c58dde-ad0b-4825-baf7-f9e1f4f47007",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return !!document.querySelector('#log tr:nth-child(3)')?.textContent.trim();",
+      "targets": [],
+      "value": "tableActividad"
+    }, {
+      "id": "4170d63c-4079-4c10-9a59-894e5f9c31bd",
+      "comment": "",
+      "command": "if",
+      "target": "${tableActividad} ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f30372e9-13c0-42db-a2ba-9bba66ab7fea",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=log",
+      "targets": [],
+      "value": "infoTableActividad"
+    }, {
+      "id": "e8045e86-e29d-41a1-ae0e-9c7c1e04e786",
+      "comment": "",
+      "command": "echo",
+      "target": "${infoTableActividad}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dae77d2-81ef-49c2-8e1a-ec50f0c823a7",
+      "comment": "",
+      "command": "echo",
+      "target": "Pestaña Log de Simulación",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bd683a1-65ad-4926-b65a-1af3ee31fe31",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log de simulacion",
+      "targets": [
+        ["linkText=Log de simulacion", "linkText"],
+        ["css=.ui-state-hover > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log de simulacion')]", "xpath:link"],
+        ["xpath=//a[@onclick='active_log()']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tabs-2')]", "xpath:href"],
+        ["xpath=//td/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log de simulacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbf67d9-f7e8-42cf-ac11-05391e3fa689",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=tabs-2",
+      "targets": [
+        ["id=tabs-2", "id"],
+        ["css=#tabs-2", "css:finder"],
+        ["xpath=//div[@id='tabs-2']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs']/div[2]", "xpath:idRelative"],
+        ["xpath=//td/div/div[2]", "xpath:position"]
+      ],
+      "value": "InfoLog"
+    }, {
+      "id": "0b23752c-322e-4849-b731-442ab8c3fa77",
+      "comment": "",
+      "command": "echo",
+      "target": "${InfoLog}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2da8be7-42fb-48d3-9bbf-f0b0c2b7ad10",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "712132ef-71a5-42ad-a758-d9808f14014e",
+      "comment": "",
+      "command": "click",
+      "target": "id=origen",
+      "targets": [
+        ["id=origen", "id"],
+        ["name=origen", "name"],
+        ["css=#origen", "css:finder"],
+        ["xpath=//select[@id='origen']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs-1']/div/div/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "554dea0e-bb41-4bbd-adb6-92b5e5c29750",
+      "comment": "",
+      "command": "select",
+      "target": "id=origen",
+      "targets": [],
+      "value": "label=Llamada de servicio"
+    }, {
+      "id": "af732ef9-0b4f-4e09-b313-6feae6129f7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=consultar",
+      "targets": [
+        ["id=consultar", "id"],
+        ["name=consultar", "name"],
+        ["css=#consultar", "css:finder"],
+        ["xpath=//input[@id='consultar']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs-1']/div/div/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "216e4ca1-3498-4948-8a2a-0108f62f7f53",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=log",
+      "targets": [],
+      "value": "infoTableActividad"
+    }, {
+      "id": "8be2003c-ccba-4c61-b9d0-fb8300d54007",
+      "comment": "",
+      "command": "echo",
+      "target": "${infoTableActividad}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a28f5801-830a-4419-9304-5b42643fa987",
+      "comment": "",
+      "command": "echo",
+      "target": "Pestaña Log de Simulación",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "783436f5-4ebb-4e9c-9b23-3587bcfada29",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Log de simulacion",
+      "targets": [
+        ["linkText=Log de simulacion", "linkText"],
+        ["css=.ui-state-hover > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Log de simulacion')]", "xpath:link"],
+        ["xpath=//a[@onclick='active_log()']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#tabs-2')]", "xpath:href"],
+        ["xpath=//td/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Log de simulacion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3783e1f-d002-464c-a7f4-5be4e21b1382",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=tabs-2",
+      "targets": [
+        ["id=tabs-2", "id"],
+        ["css=#tabs-2", "css:finder"],
+        ["xpath=//div[@id='tabs-2']", "xpath:attributes"],
+        ["xpath=//div[@id='tabs']/div[2]", "xpath:idRelative"],
+        ["xpath=//td/div/div[2]", "xpath:position"]
+      ],
+      "value": "InfoLog"
+    }, {
+      "id": "a2bce63d-883a-4c5a-8d5a-2c2fbc3e7a84",
+      "comment": "",
+      "command": "echo",
+      "target": "${InfoLog}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "417a5da6-cc0d-4406-ae1e-4d42fda12a3f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42e5dfe4-611f-4a00-8a53-010a5f37aee9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a67c029a-ed8b-43f9-8a82-a862f67660e3"]
+  }],
+  "urls": ["http://100.72.132.115/index.php", "https://agendamiento.cable.net.co/index.php", "https://agendamiento.cable.net.co/", "http://100.72.132.115/", "http://100.72.132.155/"],
+  "plugins": []
+}
