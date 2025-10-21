@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "selenium-side-runner": "^4.0.13"
+  }
+}

@@ -1,6 +1,7 @@
 import os
 import sys
 sys.path.append('/oracle/python-libs')
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..")))  
 os.environ["GENERAR_REPORTE"] = "FALSE"
 import pytest
 from dotenv import load_dotenv
@@ -37,7 +38,7 @@ console_lock = threading.Lock()
 resultados = defaultdict(str)
 
 # Archivo JUnit para resultados
-output_file = "../../reports/junit/resultados_junit_simulador_regla.xml"
+output_file = "reports/junit/resultados_junit_simulador_regla.xml"
 
 # Variables para contar tests
 total_tests = 0
@@ -172,8 +173,9 @@ def ejecucion(orden, driver):
 
         # Ejecutar el archivo de pruebas con pytest
         ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..',".."))
+        #ruta_base =sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..")))  
         result = subprocess.run(
-            ["python", "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_simulador_regla.py", "--orden", orden],
+            [sys.executable, "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_simulador_regla.py", "--orden", orden],
             #["pytest", "-s", "-q", "--maxfail=1", "test/test_simulador_regla.py", "--orden", orden],
             capture_output=True,
             text=True,
@@ -282,7 +284,7 @@ num_threads = int(os.getenv("NUM_THREADS", 4))
 start_time = time.time()
 
 try:
-    abrir_navegador_x_veces(num_threads, "../../utils/txt/orders_simulador_regla.txt")
+    abrir_navegador_x_veces(num_threads, "utils/txt/orders_simulador_regla.txt")
 except FileNotFoundError as e:
     print(e)
 finally:

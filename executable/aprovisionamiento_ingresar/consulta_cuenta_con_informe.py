@@ -18,6 +18,7 @@ import xml.etree.ElementTree as ET
 from datetime import timedelta
 import traceback
 import tempfile
+import sys
 
 
 # Configuración de entorno y logging
@@ -42,7 +43,7 @@ resultados = defaultdict(str)
 
 # Archivo JUnit para resultados
 #output_file = "resultados_junit.xml"
-output_file = "../reports/junit/resultados_junit_aprovisionamiento_ingresar.xml"
+output_file = "reports/junit/resultados_junit_aprovisionamiento_ingresar.xml"
 
 # Variables para contar tests
 total_tests = 0
@@ -192,8 +193,9 @@ def ejecucion(cuenta):
         # Ejecutar el archivo de pruebas con pytest
         ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..',".."))
         result = subprocess.run(
+            [sys.executable, "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
+            #["python", "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
             #["pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
-            ["python", "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
             capture_output=True,
             text=True,
             check=False,
@@ -315,7 +317,7 @@ num_threads = int(os.getenv("NUM_THREADS", 4))
 start_time = time.time()
 
 try:
-    abrir_navegador_x_veces(num_threads, "../../utils/txt/cuentas_aprovisionamiento_ingresar.txt")
+    abrir_navegador_x_veces(num_threads, "utils/txt/cuentas_aprovisionamiento_ingresar.txt")
 except FileNotFoundError as e:
     print(e)
 finally:

@@ -3,7 +3,7 @@
 import os
 import sys
 os.environ["GENERAR_REPORTE"] = "TRUE"
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..")))  
 import threading
 import time
 import xml.etree.ElementTree as ET

@@ -2,7 +2,7 @@ import sys
 import os
 os.environ["GENERAR_REPORTE"] = "TRUE"
 # Añade el directorio raíz del proyecto al path si no está ya
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..',"..")))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..")))  
 import unittest
 import os
 import time

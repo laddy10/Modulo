@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 import os
+import sys
 os.environ["GENERAR_REPORTE"] = "False"
 from dotenv import load_dotenv
 from selenium import webdriver
@@ -42,7 +43,7 @@ resultados = defaultdict(str)
 
 # Archivo JUnit para resultados
 #output_file = "resultados_junit.xml"
-output_file = "../../reports/junit/resultados_junit_aprovisionamiento_ingresar.xml"
+output_file = "reports/junit/resultados_junit_aprovisionamiento_ingresar.xml"
 
 # Variables para contar tests
 total_tests = 0
@@ -190,10 +191,12 @@ def ejecucion(cuenta):
         start_time = time.time()  # Tiempo inicial para la cuenta
 
         # Ejecutar el archivo de pruebas con pytest
-        ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..',".."))
+        #ruta_base = os.path.abspath(os.path.join(os.path.dirname(__file__), '..',".."))
+        ruta_base = sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..","..")))  
         result = subprocess.run(
+            [sys.executable, "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
+            #["python", "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
             #["pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
-            ["python", "-m", "pytest", "-s", "-q", "--maxfail=1", "test/test_consulta_cuenta.py", "--cuenta", cuenta],
             capture_output=True,
             text=True,
             check=False,
@@ -269,8 +272,12 @@ def procesar_navegador(cuentas_queue):
 
     driver = None
     try:
+        #chromedriver_path = r"D:\Modulo_Gestion\Nueva carpeta\automatizacion_modulo_gestion-develop\drivers\chromedriver.exe"
+        #service = Service(chromedriver_path)
+        #driver = webdriver.Chrome(service=service, options=chrome_options)
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chrome_options)
+        
 
         print("Navegador iniciado correctamente en procesar_navegador.")
 
@@ -315,7 +322,7 @@ num_threads = int(os.getenv("NUM_THREADS", 4))
 start_time = time.time()
 
 try:
-    abrir_navegador_x_veces(num_threads, "../../utils/txt/cuentas_aprovisionamiento_ingresar.txt")
+    abrir_navegador_x_veces(num_threads, "utils/txt/cuentas_aprovisionamiento_ingresar.txt")
 except FileNotFoundError as e:
     print(e)
 finally:
