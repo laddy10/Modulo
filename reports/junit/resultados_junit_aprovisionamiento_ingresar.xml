@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<testsuites><testsuite name="MG_Aprovisionamiento" tests="1" failures="0" passed="1" time="90.18"><testcase name="cuenta_51219296" time="0:01:30.178990"><system-out>Estado: Completada
-Resultados: .[OK] Documentos unificados correctamente en: C:\Users\Usuario\Desktop\KARENCITA_PRUEBAS\modulo_gestion\reports\word\one_report_general\documento_unificado.docx
-Viewport aplicado: 1924x953
+<testsuites><testsuite name="MG_Aprovisionamiento" tests="1" failures="0" passed="1" time="100.60"><testcase name="cuenta_51219296" time="0:01:40.604295"><system-out>Estado: Completada
+Resultados: .[OK] Documentos unificados correctamente en: D:\Modulo_Gestion\modulo_gestion\reports\word\one_report_general\documento_unificado.docx
+Viewport aplicado: 1370x641
 
 InformaciÃ³n obtenida:
 Cuenta: 51219296
@@ -32,7 +32,4 @@ LINEAS Y NUMEROS VIRTUALES - ATAs
 HUNT GROUPS - PACKETCABLE
   
 
-[ALERTA] Test demorÃ³ 68.58 segundos. Enviando alerta...
-Guardando reporte: Aprovisionamiento_Ingresar
-Reporte Word guardado en: C:\Users\Usuario\Desktop\KARENCITA_PRUEBAS\modulo_gestion\reports\word\all_reports\reporte_Aprovisionamiento_Ingresar.docx
-Reporte guardado en: C:\Users\Usuario\Desktop\KARENCITA_PRUEBAS\modulo_gestion\reports\word\all_reports\reporte_Aprovisionamiento_Ingresar.docx</system-out></testcase></testsuite></testsuites>
+[ALERTA] Test demorÃ³ 68.96 segundos. Enviando alerta...</system-out></testcase></testsuite></testsuites>
